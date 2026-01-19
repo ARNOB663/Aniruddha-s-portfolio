@@ -32,11 +32,11 @@ const Header = () => {
         };
     }, [isMenuOpen]);
 
-    const headerBaseClasses = "fixed top-0 left-0 right-0 z-40 h-20 transition-all duration-300 ease-in-out";
-    const scrolledClasses = "bg-black/80 backdrop-blur-md border-b border-neutral-800";
-    const topClasses = "bg-white border-b border-gray-200";
-    const logoColor = isScrolled ? "text-white" : "text-black";
-    const mobileIconColor = isScrolled ? "bg-white" : "bg-black";
+    const headerBaseClasses = 'fixed top-0 left-0 right-0 z-40 h-20 transition-all duration-300 ease-in-out';
+    const scrolledClasses = 'bg-black/80 backdrop-blur-md border-b border-neutral-800';
+    const topClasses = 'bg-white border-b border-gray-200';
+    const logoColor = isScrolled ? 'text-white' : 'text-black';
+    const mobileIconColor = isScrolled ? 'bg-white' : 'bg-black';
 
     const progressBarColor = useTransform(scrollYProgress, [0, 0.01], ['#000000', '#67E8F9']);
 

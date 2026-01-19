@@ -10,7 +10,7 @@ import { Project } from '../lib/types'; // Adjust import path as needed
 const ProjectEntry = ({ item }: { item: Project }) => (
   <a
     href={item.link || '#'}
-    target={item.link ? "_blank" : "_self"}
+    target={item.link ? '_blank' : '_self'}
     rel="noopener noreferrer"
     className={`group relative block transition-colors ${!item.link ? 'cursor-default' : ''}`}
     aria-disabled={!item.link}

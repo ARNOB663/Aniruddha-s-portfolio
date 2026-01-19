@@ -5,13 +5,13 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FiMail, FiArrowRight } from 'react-icons/fi';
 import { FaLinkedin, FaGithub, FaYoutube, FaTwitter, FaLastfm } from 'react-icons/fa';
-import { SiAnilist } from 'react-icons/si';
+
 
 import type { Variants } from 'framer-motion';
 
 // --- Variants are perfect, no changes ---
 const containerVariants: Variants = { hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.1, delayChildren: 0.2 } } };
-const itemVariants: Variants = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100, damping: 12 } } };
+const itemVariants: Variants = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 100, damping: 12 } } };
 
 // --- Data is perfect, no changes ---
 const contactLinks = [
@@ -28,7 +28,7 @@ const ContactPrompt = () => (
     <motion.div variants={itemVariants}>
         <h3 className="font-mono text-lg text-black mb-2">[INITIATE_CONTACT]</h3> {/* CHANGED */}
         <p className="text-gray-600 mb-6 max-w-sm"> {/* CHANGED */}
-            I'm currently available for freelance projects and open to discussing new opportunities. My inbox is always open, whether you have a question or just want to say hi.
+            I&apos;m currently available for freelance projects and open to discussing new opportunities. My inbox is always open, whether you have a question or just want to say hi.
         </p>
         <Link href="mailto:your.email@example.com" className="group inline-flex items-center gap-3 px-6 py-3 border border-black text-black font-mono text-sm tracking-wider transition-all duration-300 hover:bg-black hover:text-white"> {/* CHANGED */}
             <span>SEND_DIRECT_EMAIL</span>

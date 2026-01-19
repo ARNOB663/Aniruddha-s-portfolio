@@ -16,7 +16,7 @@ type ButtonProps = {
 };
 
 const Button = ({ href, variant = 'primary', children, isExternal = false }: ButtonProps) => {
-  const baseClasses = "px-6 py-3 font-mono text-sm tracking-wider transition-all duration-300 border";
+  const baseClasses = 'px-6 py-3 font-mono text-sm tracking-wider transition-all duration-300 border';
 
   const styles = {
     primary: 'bg-black text-white border-black hover:bg-gray-800',

@@ -69,7 +69,7 @@ const AboutSection = () => {
                         <motion.div variants={itemVariants}>
                             <h4 className="font-mono text-xs text-neutral-500 tracking-widest mb-4">[PHILOSOPHY]</h4> {/* CHANGED: text-neutral-500 */}
                             <div className="space-y-4 text-neutral-300 leading-relaxed"> {/* CHANGED: text-neutral-300 */}
-                                <p>My mission isn't just to crunch numbers or write code, but to invent, build, and discover. I'm captivated by the elegance of mathematics and its tangible application in technology, exploring our world through the language of numbers, algorithms, and patterns.</p>
+                                <p>My mission isn&apos;t just to crunch numbers or write code, but to invent, build, and discover. I&apos;m captivated by the elegance of mathematics and its tangible application in technology, exploring our world through the language of numbers, algorithms, and patterns.</p>
                                 <p>I thrive on translating statistical models and algorithmic logic into functional code, primarily using Python and its powerful data science ecosystem to bridge theory with real-world impact.</p>
                             </div>
                         </motion.div>
