@@ -2,7 +2,7 @@
 import Hero from './components/Hero';
 import AboutSection from './components/sections/AboutSection';
 import ContactSection from './components/sections/ContactSection';
-import GridSection from './components/sections/GridSection';
+
 import ProjectsSection from './components/sections/ProjectsSection';
 import SkillsSection from './components/sections/SkillsSection';
 
